@@ -1,6 +1,15 @@
 # Angular Esbuild Example
 
-**Production build within ~200ms instead of 11s**
+**50x faster builds with esbuild, production build within 200ms instead of 10s**
+
+Enjoy this:
+
+![image description](src/assets/ngc-esbuild.gif)
+
+
+Instead of this:
+
+![image description](src/assets/ng-build.gif)
 
 Simple angular-cli example, using [ngc-esbuild](https://www.npmjs.com/package/ngc-esbuild) to achieve hyperfast builds.
 
