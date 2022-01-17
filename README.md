@@ -1,27 +1,41 @@
-# AngularEsbuildExample
+# Angular Esbuild Example
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+**Production build within ~200ms instead of 11s**
 
-## Development server
+This project is a simple angular-cli example, using [ngc-esbuild](https://www.npmjs.com/package/ngc-esbuild) to achieve hyperfast builds.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+(This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.)
 
-## Code scaffolding
+## Getting started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run this to get started with a single command:
 
-## Build
+```
+git clone git@github.com:marcellkiss/angular-esbuild-example.git && cd angular-esbuild-example && npm i && npx ngc-esbuild
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Or do it step by step:
 
-## Running unit tests
+1. clone the project:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+git clone git@github.com:marcellkiss/angular-esbuild-example.git
+```
 
-## Running end-to-end tests
+2. enter the folder
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+cd angular-esbuild-example
+```
 
-## Further help
+3. install the dependencies
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm i
+```
+
+4. Run ngc-esbuild:
+
+```
+npx ngc-esbuild
+```
